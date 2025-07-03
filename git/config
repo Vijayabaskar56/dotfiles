@@ -1,0 +1,78 @@
+
+[user]
+   # Set your Git username
+   name = Vijayabaskar
+   # Set your Git email address
+   email = vj2k02@gmail.com
+
+[core]
+   # Set compression level for objects (1-9, higher is more compression)
+   compression = 9
+   # Warn about whitespace issues
+   whitespace = warning
+   # Enable index preloading for better performance
+   preloadindex = true
+
+[url "git@github.com:Vijayabaskar56/"]
+   # Use 'vj:' as shorthand for personal GitHub repos
+   insteadOf = "vj:"
+[url "git@github.com:Vijayabaskar56/"]
+   # Use 'gh:' as alternate shorthand for GitHub repos
+   insteadOf = "gh:"
+[init]
+   # Set default branch name for new repositories
+   defaultBranch = main
+[log]
+   # Show abbreviated commit hashes
+   abbrevCommit = true
+   # Set colors for git log graph
+   graphColors = blue,yellow,cyan,magenta,green,red
+[diff]
+   # Show 3 lines of context around changes
+   context = 3
+   # Detect renamed and copied files
+   renames = copies
+   # Show 10 lines between diff hunks
+   interHunkContext = 10
+[pager]
+   # Use diff-so-fancy for improved diff output
+   diff = diff-so-fancy | $PAGER
+[blame]
+   # Enable recent change highlighting
+   coloring = highlightRecent
+   # Show relative dates in blame
+   date = relative
+[push]
+   # Automatically set up remote tracking
+   autoSetupRemote = true
+   # Push to current branch by default
+   default = current
+   # Push tags along with commits
+   followTags = true
+   # Disable GPG signing for pushes
+   gpgSign = false
+[pull]
+   # Pull from current branch by default
+   default = current
+[branch]
+   # Sort branches by most recent commit
+   sort = -committerdate
+[color "branch"]
+   # Set colors for different branch types
+   current  = magenta
+   local    = default
+   remote   = yellow
+   upstream = green
+   plain    = blue
+[color "diff"]
+   # Set colors for diff output
+   meta       = black bold
+   frag       = magenta
+[interactive]
+   # Use diff-so-fancy for interactive diffs
+   diffFilter = diff-so-fancy --patch
+   # Enable single key interactive mode
+   singlekey = true
+[diff-so-fancy]
+   # Disable marking empty lines in diff output
+   markEmptyLines = false
