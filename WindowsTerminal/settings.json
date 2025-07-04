@@ -1,1 +1,246 @@
-C:/Users/vj2k0/AppData/Local/packages/Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe/LocalState/settings.json
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema-preview",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "newTab",
+                "index": 0
+            },
+            "id": "User.newTab.7975BEED"
+        },
+        {
+            "command": 
+            {
+                "action": "switchToTab",
+                "index": 1
+            },
+            "id": "User.switchToTab.2A0DA8E0"
+        },
+        {
+            "command": 
+            {
+                "action": "switchToTab",
+                "index": 0
+            },
+            "id": "User.switchToTab.D3F0B923"
+        },
+        {
+            "command": 
+            {
+                "action": "switchToTab",
+                "index": 2
+            },
+            "id": "User.switchToTab.87C324ED"
+        },
+        {
+            "command": 
+            {
+                "action": "switchToTab",
+                "index": 3
+            },
+            "id": "User.switchToTab.6CD791B"
+        },
+        {
+            "command": 
+            {
+                "action": "movePane",
+                "index": 1
+            },
+            "id": "User.movePane.EA17F97A"
+        }
+    ],
+    "centerOnLaunch": true,
+    "copyFormatting": "none",
+    "copyOnSelect": true,
+    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+    "experimental.enableColorSelection": false,
+    "keybindings": 
+    [
+        {
+            "id": null,
+            "keys": "ctrl+shift+1"
+        },
+        {
+            "id": "Terminal.CopyToClipboard",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "Terminal.PasteFromClipboard",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "Terminal.DuplicatePaneAuto",
+            "keys": "alt+shift+d"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+shift+3"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+shift+5"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+shift+2"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+shift+4"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+alt+1"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+alt+2"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+alt+3"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+alt+7"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+alt+4"
+        },
+        {
+            "id": "User.switchToTab.D3F0B923",
+            "keys": "alt+1"
+        },
+        {
+            "id": "User.movePane.EA17F97A",
+            "keys": "alt+shift+1"
+        },
+        {
+            "id": "User.newTab.7975BEED",
+            "keys": "ctrl+1"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+alt+5"
+        },
+        {
+            "id": "Terminal.OpenNewTabProfile1",
+            "keys": "ctrl+2"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+alt+6"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+alt+8"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+shift+9"
+        },
+        {
+            "id": "Terminal.OpenNewTabProfile2",
+            "keys": "ctrl+3"
+        },
+        {
+            "id": "Terminal.OpenNewTabProfile3",
+            "keys": "ctrl+4"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+shift+6"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+shift+7"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+shift+8"
+        },
+        {
+            "id": "User.switchToTab.2A0DA8E0",
+            "keys": "alt+2"
+        },
+        {
+            "id": "User.switchToTab.87C324ED",
+            "keys": "alt+3"
+        },
+        {
+            "id": "User.switchToTab.6CD791B",
+            "keys": "alt+4"
+        },
+        {
+            "id": "Terminal.ClosePane",
+            "keys": "ctrl+w"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+shift+w"
+        }
+    ],
+    "launchMode": "maximized",
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "colorScheme": "Tango Dark",
+            "experimental.retroTerminalEffect": false,
+            "font": 
+            {
+                "face": "JetBrainsMono Nerd Font"
+            },
+            "opacity": 60,
+            "scrollbarState": "visible",
+            "useAcrylic": true
+        },
+        "list": 
+        [
+            {
+                "commandline": "pwsh",
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "name": "PowerShell",
+                "source": "Windows.Terminal.PowershellCore"
+            },
+            {
+                "guid": "{78709760-c541-5d4b-9a2b-24ec7f2934f4}",
+                "hidden": false,
+                "name": "archlinux",
+                "source": "Microsoft.WSL"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            }
+        ]
+    },
+    "schemes": [],
+    "themes": [],
+    "useAcrylicInTabRow": true
+}
