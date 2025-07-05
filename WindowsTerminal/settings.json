@@ -195,15 +195,15 @@
     {
         "defaults": 
         {
-            "colorScheme": "Tango Dark",
+            "colorScheme": "Ottosson",
             "experimental.retroTerminalEffect": false,
             "font": 
             {
                 "face": "JetBrainsMono Nerd Font"
             },
-            "opacity": 60,
+            "opacity": 45,
             "scrollbarState": "visible",
-            "useAcrylic": true
+            "useAcrylic": false
         },
         "list": 
         [

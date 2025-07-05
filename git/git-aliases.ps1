@@ -7,6 +7,8 @@ function Git-Add { git add $args }
 Set-Alias -Name ga -Value Git-Add
 function Git-AddAll { git add --all }
 Set-Alias -Name gaa -Value Git-AddAll
+function Git-AddPatch { git add --patch }
+Set-Alias -Name gap -Value Git-AddPatch
 function Git-Commit { git commit $args }
 Set-Alias -Name gcom -Value Git-Commit
 function Git-CommitAll { git commit --all $args }
@@ -25,7 +27,7 @@ function Git-PullRebase { git pull --rebase $args }
 Set-Alias -Name gpr -Value Git-PullRebase
 function Git-Push { git push $args }
 Set-Alias -Name gpsh -Value Git-Push
-function Git-Status { git status $args }
+function Git-Status { git status --short $args }
 Set-Alias -Name gs -Value Git-Status
 
 # Branching and Merging
